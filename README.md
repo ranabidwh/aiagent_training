@@ -28,6 +28,9 @@ It's recommended to install Python from the official website or through a packag
         ```bash
         python3 --version
         ```
+        ```bash
+        python --version
+        ```
     * You should see output similar to `Python 3.X.Y`. If you see an error, double-check your installation steps, especially the "Add to PATH" step on Windows.
 
 ### Option B: Using a Package Manager (Recommended for Linux & Advanced Users)
@@ -71,6 +74,10 @@ A virtual environment creates an isolated space for your Python projects, allowi
     Use the `venv` module (built-in with Python 3.3+):
     ```bash
     python3 -m venv venv
+    ```
+    ```bash
+    pip install virtualenv
+    virtualenv venv
     ```
     This command creates a directory named `venv` (you can choose a different name, but `venv` is common) inside your project directory.
 
